@@ -1,0 +1,122 @@
+@media screen and (max-width:600px) {
+    .unorder-list{
+        display: none;
+    }
+    .disable{
+        display: block;
+    }
+    .menu-icon{
+        margin-right: 50px;
+    }
+    .logo{
+        width: 40%;
+    }
+    .logo h2{
+        font-size: 1.5rem;
+    }
+    .logo img{
+        width: 100%;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+    .popular{
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+.form input, .form select, .form button{
+    padding: 16px;
+    border-radius: 8px;
+    color: var(--secondary);
+    border: none;
+    width: 100%;
+}
+
+
+    .popular-tours,
+    .popular-tours-img,
+    .Banner,
+    .destination-section,
+    .choice-container,
+    .first-container,
+    .second-container,
+    .newsletter-subscribe,
+    .News-img-container
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-title{
+        padding-top: .5rem;
+    }
+
+    .form,
+    .tour,
+    .newsletter,
+    .watch-section {
+        flex-direction: column;
+    }
+    .destination-place-img-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination-place-img-container img
+    {
+        width: 100%;
+    }
+    .hotel-container{
+        gap: 0;
+    }
+    .first-container,
+    .third-container,
+    .third-container{
+        width: 90%;
+        margin-bottom: .8rem;
+    }
+    .newsletter{
+        margin-top:1rem ;
+    }
+    .newsletter-subscribe input, 
+    .newsletter-subscribe button{
+        width: 100%;
+    }
+    .News-img-container img{
+        width: 100%;
+    }
+    .discount{
+        top: 55%;
+        left: 49%;
+        bottom: 14%;
+        transform: rotate(-20.62deg);
+    }
+    .discount{
+        width: 50%;
+    }
+    .discount h1{
+        color: #FFF;
+        font-size: .9rem;
+        font-weight: 800;
+        padding-bottom: .5rem;
+    }
+    .discount h5{
+        color: #FFF;
+        font-size: .5rem;
+        font-weight: 200;
+    }
+    .footer,
+    .choice-container
+    {
+        margin-top: 1rem;
+    }
+    .footer-icon-img{
+        display: flex;
+        flex-direction: row;
+    }
+    .icon-img{
+        width: 48px;
+    }
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
